@@ -60,5 +60,11 @@ The three data files are located at  • Movies data- /user/biadmin/pornima/proc
  
 The Hive output is also stored in the HDFS. The storage path is “/biginsights/hive/warehouse/imdb.db”. Here, ‘imdb.db’ is the database where all the hive queries are stored.  
  
+# Experimental setup and results: 
+ 
+Operating System: Red Hat Linux. Software used: VMware Workstation, IBM Biginsights. Visualization tools: BigSheets and Tableau Public 10.2. 
+ 
+Following are the details of data which has been used for the analysis-
 
+![Movie Geners](E:\IMDBMovieBigData-master\Capture1.jpg)
  
