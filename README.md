@@ -66,5 +66,5 @@ Operating System: Red Hat Linux. Software used: VMware Workstation, IBM Biginsig
  
 Following are the details of data which has been used for the analysis-
 
-![Movie Geners](E:\IMDBMovieBigData-master\Capture1.jpg)
+![Movie Geners](Capture1.jpg)
  
