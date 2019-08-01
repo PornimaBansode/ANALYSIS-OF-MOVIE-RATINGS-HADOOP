@@ -29,16 +29,14 @@ The Movie data is collected from the GroupLens Research Project where the data c
  
 Analysis of Movie Data using Pig- I used Movie dataset for analysis with Pig. Three datasets of varying sizes are available from the site. The data was download and unzipped. It contains three text files: ratings.dat, users.dat, and movies.dat. We can view them in Notepad+ on Windows since for this project Linux is been used, we preferred vi editor. Contents of these files are described in README that accompanies the dataset. For the sake of completeness, data in the three files is briefly described here- 
  
-Ratings Data ratings.dat–>userid::movieid:rating::timestamp 
+# Ratings Data 
+ratings.dat–>userid::movieid:rating::timestamp 
  
 userid ranges from 1 to 6040,  
 movieid ranges from 1 to 3952,  rating is made on a five-star discrete scale (whole-star rating only) and timestamp is in seconds. 
  
- 
- 
- 
- 
-Users data 
+
+# Users data 
  
 users.dat–>userid::gender::age::occupation::zipcode 
  
@@ -47,7 +45,8 @@ gender is M or F;  age is categorized as 1, 18, 25, 35,45, 50, 56.  The meanings
 Occupation is one of these:  0: other,  1: academic/educator ;  2: artist ;  3: clerical/admin ;  4: college/grad student ;  5: customer service ;  6: doctor/health care ;  7: executive/managerial ;  8: farmer ;  
 9: homemaker ;  10: K-12 student ;  11: lawyer ;  12: programmer ;  13: retired ;  14: sales/marketing ;  15: scientist ;  16: self-employed ;  17: technician/engineer ;  18: tradesman/craftsman ;  19: unemployed ;  20: writer 
  
-Movies Data movies.dat–>movieID::title::genres 
+# Movies Data 
+movies.dat–>movieID::title::genres 
  
 Titles are movie titles and genres are pipe-separated and are selected from the following genres: Action, Adventure, Animation, Children’s, Comedy, Crime, Documentary, Drama, Fantasy, Film-Noir, Horror, Musical, Mystery, Romance, Sci-Fi, Thriller, War, Western 
  
@@ -57,26 +56,9 @@ The three data files are located at  • Movies data- /user/biadmin/pornima/proc
 
  
  
-Analysis of Movie Data using Hive: 
+# Analysis of Movie Data using Hive: 
  
 The Hive output is also stored in the HDFS. The storage path is “/biginsights/hive/warehouse/imdb.db”. Here, ‘imdb.db’ is the database where all the hive queries are stored.  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
